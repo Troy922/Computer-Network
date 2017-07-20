@@ -1,0 +1,30 @@
+Abbriviation
+
+DSL     digital subscriber line
+DSLAM   digital subscriber line access multiplexer
+CO      central office
+HFC     hybrid fiber coax
+CMTS    cable modem termination system
+FTTH    fiber to the home
+AONs    active optical networks:a kind ofoprical-distribution network architecture
+PONs    passive optical nerworks: like AONs
+ONT     optical network terminator: in user's home
+OLT     optical line terminator: in the telco's CO
+LAN     local area network
+LTE     Long-Term Evolution
+UTP     unshielded twisted pair
+LEO     low-earth orbiting
+FDM     frequency-division multiplexing: one of the way that a circuit in a link implenmented
+TDM     time-division multiplexing
+PoPs    points of presence:A PoP is simply a group of one or more routers (at the same location) in the provider’s network where customer ISPs can connect into the provider ISP.
+IXP     Internet Exchange Point
+
+
+
+Termiology
+packet switches :
+    Between source and destination, each packet travels through them.There are two predominant types, routers and linklayer switches
+circuit-switched networks :
+    In circuit-switched networks, the resources needed along a path (buffers, link
+    transmission rate) to provide for communication between the end systems are
+    reserved for the duration of the communication session between the end systems.
