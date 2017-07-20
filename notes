@@ -19,8 +19,6 @@ TDM     time-division multiplexing
 PoPs    points of presence:A PoP is simply a group of one or more routers (at the same location) in the provider’s network where customer ISPs can connect into the provider ISP.
 IXP     Internet Exchange Point
 
-
-
 Termiology
 packet switches :
     Between source and destination, each packet travels through them.There are two predominant types, routers and linklayer switches
