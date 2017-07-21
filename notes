@@ -18,6 +18,8 @@ FDM     frequency-division multiplexing: one of the way that a circuit in a link
 TDM     time-division multiplexing
 PoPs    points of presence:A PoP is simply a group of one or more routers (at the same location) in the provider’s network where customer ISPs can connect into the provider ISP.
 IXP     Internet Exchange Point
+DoS attacks     denial-of-servece attack:As the name suggests, a DoS attack renders a network, host, or other piece of infrastructure unusable by legitimate users.
+DDos    distributed DoS
 
 Termiology
 packet switches :
