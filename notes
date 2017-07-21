@@ -20,6 +20,7 @@ PoPs    points of presence:A PoP is simply a group of one or more routers (at th
 IXP     Internet Exchange Point
 DoS attacks     denial-of-servece attack:As the name suggests, a DoS attack renders a network, host, or other piece of infrastructure unusable by legitimate users.
 DDos    distributed DoS
+SSL     secure socket layer: an enhancement for TCP, for improvement of security
 
 Termiology
 packet switches :
