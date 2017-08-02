@@ -28,6 +28,16 @@ IMAP    Internet Mail Access Protocol : as above
 DNS     Domain Name System
 RRs     Resource Records : records that provide hostname-to-IP address mappings
 DHTs    distributed Hash Tables:
+UDP     User Datagram Protocol
+TCP     Transmission Control Protocol
+IP      Internet Protocol
+FSM     finite-stare machine
+ARQ     Automatic Repeat reQuest : In communication, receiver user positive3 ack or negative ack to let sender know whether the message is received correct or wrong. We call reliable data transfer protocols based on such retransmission ARQ protocols.
+
+
+
+
+
 Termiology
 packet switches :
     Between source and destination, each packet travels through them.There are two predominant types, routers and linklayer switches
@@ -35,3 +45,6 @@ circuit-switched networks :
     In circuit-switched networks, the resources needed along a path (buffers, link
     transmission rate) to provide for communication between the end systems are
     reserved for the duration of the communication session between the end systems.
+segment         : transport layer packket
+datagram        : network-layer packet
+transport-layer multiplexing and demultiplexing     : UDP and TCP extend host-to-host delivery to process-to-process delivery
