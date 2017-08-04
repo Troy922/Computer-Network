@@ -33,9 +33,8 @@ TCP     Transmission Control Protocol
 IP      Internet Protocol
 FSM     finite-stare machine
 ARQ     Automatic Repeat reQuest : In communication, receiver user positive3 ack or negative ack to let sender know whether the message is received correct or wrong. We call reliable data transfer protocols based on such retransmission ARQ protocols.
-
-
-
+GBN     Go-Back-N:the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgment, but is constrained to have no more than some maximum allowable number, N, of unacknowledged packets in the pipeline.
+SR      Selective Repeat
 
 
 Termiology
@@ -48,3 +47,4 @@ circuit-switched networks :
 segment         : transport layer packket
 datagram        : network-layer packet
 transport-layer multiplexing and demultiplexing     : UDP and TCP extend host-to-host delivery to process-to-process delivery
+
