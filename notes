@@ -35,7 +35,12 @@ FSM     finite-stare machine
 ARQ     Automatic Repeat reQuest : In communication, receiver user positive3 ack or negative ack to let sender know whether the message is received correct or wrong. We call reliable data transfer protocols based on such retransmission ARQ protocols.
 GBN     Go-Back-N:the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgment, but is constrained to have no more than some maximum allowable number, N, of unacknowledged packets in the pipeline.
 SR      Selective Repeat
-
+MSS     maximum segment size: the maximum segment size can be grabbed and placed in a TCP  buffered data segment.Note that MSS is the maximum amount of application-layer data in the segment.
+MTU     maximum transmission unit:largest link-layer frame that can be sent by the local sending host.
+EWMA    exponetial weighted moving average
+DCCP    datagram congestion control protocol
+SCTP    stream control transmission protocol
+TFRC    TCP-Friendly rate control protocol
 
 Termiology
 packet switches :
@@ -47,4 +52,4 @@ circuit-switched networks :
 segment         : transport layer packket
 datagram        : network-layer packet
 transport-layer multiplexing and demultiplexing     : UDP and TCP extend host-to-host delivery to process-to-process delivery
-
+TCP segments    : each chunk of client data with a TCP header.
