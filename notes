@@ -41,6 +41,8 @@ EWMA    exponetial weighted moving average
 DCCP    datagram congestion control protocol
 SCTP    stream control transmission protocol
 TFRC    TCP-Friendly rate control protocol
+NAT     network address translation
+ICMP    Internet Control Message Protocol
 
 Termiology
 packet switches :
@@ -53,3 +55,6 @@ segment         : transport layer packket
 datagram        : network-layer packet
 transport-layer multiplexing and demultiplexing     : UDP and TCP extend host-to-host delivery to process-to-process delivery
 TCP segments    : each chunk of client data with a TCP header.
+forwarding and routing functions of the network layer: Forwarding involves the transfer of a packet from an incoming link to an outgoing link within a single router. Routing involves all of a network’s routers, whose collective interactions via routing protocols determine the paths that packets take on their trips from source to destination node.
+virtual-cirtuit network : Computer networks that provide only a connection service at the network layer are called virtual-circuit (VC) networks.
+datagram network :Computer networks that provide only a connectionless service at the network layer are called datagram networks.
