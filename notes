@@ -42,7 +42,15 @@ DCCP    datagram congestion control protocol
 SCTP    stream control transmission protocol
 TFRC    TCP-Friendly rate control protocol
 NAT     network address translation
-ICMP    Internet Control Message Protocol
+ICMP    Internet Control Message Protocol:used by hosts and routers to communicate network-layer information to each other.
+TOS     type of service: one field of IP datagram
+TTL     time-to-live : a IP datagram file to ensure that datagrams do not circulate forever
+MTU     maximum transmission unit: the maximum amount of data that a link-layer frame can carry.
+CIDR    Classless Interdomain Routing : the Internet's address assignment strategy
+ICANN   Internet Corporation for Assigned Names and Numbers:a global authority that has ultimate responsibility for managing the IP address space and allocating address blocks to ISPs and other organizations
+DHCP    Dynamic Host Configuration Protocol: it allows a host to obtain(be allocated) an IP address automatically.
+NAT     network address translation
+UPnP    Universal Plug and Play
 
 Termiology
 packet switches :
@@ -58,3 +66,6 @@ TCP segments    : each chunk of client data with a TCP header.
 forwarding and routing functions of the network layer: Forwarding involves the transfer of a packet from an incoming link to an outgoing link within a single router. Routing involves all of a network’s routers, whose collective interactions via routing protocols determine the paths that packets take on their trips from source to destination node.
 virtual-cirtuit network : Computer networks that provide only a connection service at the network layer are called virtual-circuit (VC) networks.
 datagram network :Computer networks that provide only a connectionless service at the network layer are called datagram networks.
+IPsec : a kind of secure network-layer protocol
+LS algorithms : link-state altorithms,a global algorithm that has complete information about connectivity and link costs.
+DV algorithms : distance-vector algorithm, adecentralized routing algorithm.
