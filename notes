@@ -51,6 +51,13 @@ ICANN   Internet Corporation for Assigned Names and Numbers:a global authority t
 DHCP    Dynamic Host Configuration Protocol: it allows a host to obtain(be allocated) an IP address automatically.
 NAT     network address translation
 UPnP    Universal Plug and Play
+MAC     medium access control protocol
+NIC     network interface card
+EDC     error-detection and -correction
+FEC     forward error correction: the ability of the receiver to both detect and correct errors
+CRC     Clycling Redundancy Check: an error-detection technique
+PPP     point-to-point protocol
+HDLC    high-level data link control
 
 Termiology
 packet switches :
